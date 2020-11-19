@@ -1,0 +1,86 @@
+
+body{
+    background-color:#1e1e30;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form{
+    padding-left: 20px;
+    padding-right: 20px;
+    width:350px;
+    height: 500px;
+    background:#161625;
+    color:#4c75f2;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+
+.form1{
+    padding-left: 20px;
+    padding-right: 20px;
+    width:350px;
+    height:1000px;
+    background:#161625;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+h1{
+    margin: 0%;
+    padding: 20px 0 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.form input{
+    width:100%;
+    margin-bottom: 20px;
+}
+.form input[type="text"],input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(114, 114, 133);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.form input[type="Submit"]
+{
+    border:none;
+    outline: none;
+    height: 40px;
+    background:#1e1e30;
+    color: #4c75f2;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form input[type="Submit"]:hover{
+    background: black;
+}
+
+.drop{
+    color: rgb(108, 117, 125);
+    padding: 5px;
+    border: none;
+    background-color:#1e1e30;
+
+}
+
+#age{
+    background-color: #1e1e30;
+    margin-top: 15px;
+    padding: 5px;
+    border: none;
+}
